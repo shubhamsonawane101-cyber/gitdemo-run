@@ -9,7 +9,7 @@ test("Login with valid creds",async({page})=>{
     await login.openURL();
     await login.clickonLoginLink();
     await login.enterUSerName("pavnol");
-    await login.enterPassword("test@123");
+    await login.enterPassword("test@12");
     await login.clickonLoginButton();
     await page.waitForTimeout(3000);
 
